@@ -143,7 +143,7 @@ public class MainActivity extends AppCompatActivity {
             webSettings.setLoadWithOverviewMode(true);
             webSettings.setSupportMultipleWindows(true);
             webSettings.setGeolocationEnabled(true);
-            myWebView.loadUrl("https://www.apondiform.com/exa/"); //URL input
+            myWebView.loadUrl("https://cancerchronic.org/daplace"); //URL input
         }
         else{
             Toast.makeText(this, "No internet connection" ,Toast .LENGTH_SHORT).show();
@@ -223,10 +223,7 @@ public class MainActivity extends AppCompatActivity {
             mWebChromeClient.onHideCustomView();
         else if (myWebView.canGoBack())
             myWebView.goBack();
-
-
     }
-
 }
 
 
